@@ -280,6 +280,7 @@
 					};
 					14A630141D3293C700809B3F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 27AEDK3C9F;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
@@ -400,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 148E44EB1BF9EEB3004FFEC1 /* KeychainAccess.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos10.2;
 			};
 			name = Debug;
 		};
@@ -407,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 148E44EB1BF9EEB3004FFEC1 /* KeychainAccess.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos10.2;
 			};
 			name = Release;
 		};
